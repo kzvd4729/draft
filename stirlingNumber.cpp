@@ -5,11 +5,11 @@ const int N=2e5;
 //..............................................................................
 /*
 stirling number of seocond kind:
-there are n different object(distinguishable) and m identical boxes
+there are n different object(distinguishable) and k identical boxes
 (indistinguishable). how many ways to put object into boxes such that each box
 have atleast one object.
+boxes are considered to be set. permutation of object doesnt matter.
 if boxes are distinguishable multiply by k!
-
            1   k        
 formula:  ---  ∑   (-1)^i kCi (k-i)^n
            k!  i=0
