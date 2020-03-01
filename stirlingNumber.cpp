@@ -16,6 +16,7 @@ formula:  ---  ∑   (-1)^i kCi (k-i)^n
 removing the constant and reformulating:
 (-1)^i 1/(i!)  *  1/(k-i)! (k-i)^n
 for fixed n we can calculte for all k using fft
+for stirling(3,2)={1 23} {2 13} {3 12}
 */
 const int mod=880803841,g=26;vector<int>r;
 void bitReverse(int n)
